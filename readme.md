@@ -8,8 +8,10 @@ That assumes you have created the database already and you dont have to use the 
 3. Lastly you can use the ```` source ```` command to load in data from a file. The steps to this are (1) create the db. (2) Change to that db. (3) source somedatabasetable.sql and poof youre done. 
 
 ####Inspecting the lay of the MySQL land: 
-*Seeing which databases are out there*: Just run ```` show databases; ````. Alternitively to see which tables are out there you can run ```` show tables; ````. 
-Once you see what databases you have you can *select a db to work with* by typing ```` use dbname ````. Then to see what a particular table structure looks like you can type ```` describe tablename `````.
+**Seeing which databases are out there**: Just run ```` show databases; ````. Alternitively to see which tables are out there you can run ```` show tables; ````. 
+
+ 
+Once you see what databases you have you can **select a db to work with** by typing ```` use dbname ````. Then to see what a particular table structure looks like you can type ```` describe tablename `````.
 
 
 
